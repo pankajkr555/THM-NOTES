@@ -1,0 +1,23 @@
+# 🌐 DNS (Domain Name System) Notes
+
+**What is DNS?**
+DNS is the "phonebook of the internet." It translates human-readable domain names (like google.com) into machine-readable IP addresses (like 142.250.190.46).
+
+## 📊 How DNS Works (The Process)
+```text
+[Your Computer] 
+      │
+      ▼
+1. [DNS Resolver] (Usually provided by your ISP)
+      │
+      ▼
+2. [Root Server] (Directs to the TLD)
+      │
+      ▼
+3. [TLD Server] (.com, .org, .in) (Directs to Authoritative)
+      │
+      ▼
+4. [Authoritative Nameserver] (Holds the actual IP)
+      │
+      ▼
+[Returns IP Address to your computer]
